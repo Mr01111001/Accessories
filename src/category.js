@@ -1,0 +1,77 @@
+import React from "react";
+import './category.css';
+import img1 from './img/SeatCover.jpg';
+import img2 from './img/door.jpg';
+import img3 from './img/light1.jpeg';
+import img4 from './img/TyreInflator.jpg';
+import img5 from './img/Speaker.jpg';
+import img6 from './img/polish.jpeg';
+
+
+function Category(){
+    return(
+        <form>
+            <div>
+                <h2>
+                    CATEGORY
+                </h2>
+            </div>
+            <div class="cwrapper1">
+        <div class="ccard"><img src={img1} alt="Img1"/>
+          <div class="cinfo">
+            <h1>Interior Accessories</h1>
+            <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+          </div>
+        </div>
+    </div>
+    <div class="cwrapper2">   
+        <div class="ccard"><img src={img2} alt="Img2"/>
+          <div class="cinfo">
+            <h1>Exterior Accessoriesr</h1>
+            <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+          </div>
+        </div>
+    </div>
+    <div class="cwrapper3">
+    <div class="ccard"><img src={img3} alt="Img3"/>
+        <div class="cinfo">
+        <h1>Car Lighting Accessories</h1>
+        <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+        <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+        </div>
+    </div>
+    </div>
+    <div class="cwrapper4">
+    <div class="ccard"><img src={img4} alt="Img4"/>
+        <div class="cinfo">
+        <h1>Car Utility Accessories</h1>
+        <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+        <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+        </div>
+    </div>
+    </div>
+    <div class="cwrapper5">
+        <div class="ccard"><img src={img5} alt="Img5"/>
+          <div class="cinfo">
+            <h1>Car Electronic Accessories</h1>
+            <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="cwrapper6">    
+        <div class="ccard"><img src={img6} alt="Img6"/>
+          <div class="cinfo">
+            <h1>Car Care and Styling</h1>
+            <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
+            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+          </div>
+        </div>
+    </div>
+        </form>
+    )
+}
+
+export default Category;

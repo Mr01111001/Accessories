@@ -1,0 +1,21 @@
+div.polaroid {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 55px;
+    margin-left: 100px;
+  }
+  img {width: 99%}
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .con{
+    margin-left: 600px;
+    margin-top: -355px;
+  }
+  .con2{
+    margin-left: 600px;
+    margin-top: -200px;
+  }
