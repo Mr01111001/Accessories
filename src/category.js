@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom" ;
 import './category.css';
 import img1 from './img/SeatCover.jpg';
 import img2 from './img/door.jpg';
@@ -21,7 +22,7 @@ function Category(){
           <div class="cinfo">
             <h1>Interior Accessories</h1>
             <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+            <Link to="/i"><button>Buy Now</button></Link>
           </div>
         </div>
     </div>
@@ -30,7 +31,7 @@ function Category(){
           <div class="cinfo">
             <h1>Exterior Accessoriesr</h1>
             <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+            <Link to="/e"><button>Buy Now</button></Link>
           </div>
         </div>
     </div>
@@ -39,7 +40,7 @@ function Category(){
         <div class="cinfo">
         <h1>Car Lighting Accessories</h1>
         <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-        <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+        <Link to="/l"><button>Buy Now</button></Link>
         </div>
     </div>
     </div>
@@ -48,7 +49,7 @@ function Category(){
         <div class="cinfo">
         <h1>Car Utility Accessories</h1>
         <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-        <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+        <Link to="/u"><button>Buy Now</button></Link>
         </div>
     </div>
     </div>
@@ -57,7 +58,7 @@ function Category(){
           <div class="cinfo">
             <h1>Car Electronic Accessories</h1>
             <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+            <Link to="/el"><button>Buy Now</button></Link>
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@ function Category(){
           <div class="cinfo">
             <h1>Car Care and Styling</h1>
             <p>we are in Partnership with carhatke. You can buy quality car accessories @ lowest price.</p>
-            <button onclick="window.location.href='https://youtu.be/rVwZkT-cg64';" >Buy Now</button>
+            <Link to="/c"><button>Buy Now</button></Link>
           </div>
         </div>
     </div>
