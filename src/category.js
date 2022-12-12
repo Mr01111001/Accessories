@@ -1,12 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom" ;
 import './category.css';
-import img1 from './img/SeatCover.jpg';
-import img2 from './img/door.jpg';
-import img3 from './img/light1.jpeg';
-import img4 from './img/TyreInflator.jpg';
+import img1 from './img/seat cover.jpg';
+import img2 from './img/door side.jpg';
+import img3 from './img/turn signal.jpg';
+import img4 from './img/mobile holder.jpg';
 import img5 from './img/Speaker.jpg';
-import img6 from './img/polish.jpeg';
+import img6 from './img/brush.jpg';
 
 
 function Category(){

@@ -1,14 +1,14 @@
 import React from "react";
 import './interior.css';
-import img1 from './img/FloorMat.jpg';
-import img2 from './img/door scuff sill plate.jpg';
-import img3 from './img/window sunshade.jpg';
+import img1 from './img/floormat.png';
+import img2 from './img/let Step Plate.png';
+import img3 from './img/car sunshades.jpg';
 import img4 from './img/armrest.jpg';
-import img5 from './img/car peddle.jpeg';
-import img6 from './img/Air.png';
-import img7 from './img/SeatCover.jpg';
-import img8 from './img/gear knobs.jpg';
-import img9 from './img/interior chrome.jpg';
+import img5 from './img/car pedal.jpg';
+import img6 from './img/air.jpg';
+import img7 from './img/seat cover.jpg';
+import img8 from './img/gear knobs.jpeg';
+import img9 from './img/chrome.jpg';
 
 
 function Interior(){

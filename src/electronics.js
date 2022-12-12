@@ -1,12 +1,12 @@
 import React from "react";
 import './electronics.css';
 import img1 from './img/light1.jpeg';
-import img2 from './img/Air.png';
-import img3 from './img/light1.jpeg';
-import img4 from './img/light1.jpeg';
-import img5 from './img/light1.jpeg';
-import img6 from './img/light1.jpeg';
-import img7 from './img/light1.jpeg';
+import img2 from './img/Speaker.jpg';
+import img3 from './img/Speaker.jpg';
+import img4 from './img/Speaker.jpg';
+import img5 from './img/Screen.jpeg';
+import img6 from './img/wheel control.jpg';
+import img7 from './img/Camera.jpeg';
 
 
 function Electronics(){
